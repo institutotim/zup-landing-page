@@ -57,6 +57,8 @@ footer .nav li {
   align-items: center;
 }
 
+
+
 /* Header */
 header {
   font-weight: 700;
@@ -76,7 +78,7 @@ header {
 
 /* Navigation */
 nav {
-  background-color: #2ab4dc;
+  background-color: #066943;
   height: 60px;
 
   &.hasScrolled {
@@ -170,7 +172,7 @@ nav {
 #participe {
   text-align: center;
   color: #fff;
-  background: url(../images/header.jpg) no-repeat center center / cover;
+  background: url(../images/header3.jpg) no-repeat center center / cover;
   height: 500px;
 
   .flex-center { height: 500px; }
@@ -247,18 +249,39 @@ nav {
 
     .web {
       width: 255px;
-
-      a {
-        background: url(../images/participe_btn_cadastrese_completo_normal@2x.png) no-repeat;
-        background-size: 255px 82px;
+      button {
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        background: #088050;
+        background-image: -webkit-linear-gradient(top, #088050, #066943);
+        background-image: -moz-linear-gradient(top, #088050, #066943);
+        background-image: -ms-linear-gradient(top, #088050, #066943);
+        background-image: -o-linear-gradient(top, #088050, #066943);
+        background-image: linear-gradient(to bottom, #088050, #066943);
+        -webkit-border-radius: 5;
+        -moz-border-radius: 5;
+        border-radius: 5px;
+        border: 1px  black;
+        padding: 0px 0px 0px 0px;
+        text-decoration: none;
+        font-size: 24px;
         width: 255px;
         height: 82px;
 
         &:hover {
-          background: url(../images/participe_btn_cadastrese_completo_hover@2x.png) no-repeat;
-          background-size: 255px 82px;
-          transition: background-image .1s ease-out;
+        background-size: 255px 82px;
+        background: #088050;
         }
+        span{
+        font-size: 12px;
+        display: block;
+        padding: 10px 100px 0px 0px;
+
+        }
+        img{
+        padding: 0px 0px 0px 15px;
+      }
       }
     }
 
@@ -307,7 +330,7 @@ nav {
     text-align: center;
 
     h2 {
-      color: #2AB4DC;
+      color: #066943;
       font-size: 20px;
       font-weight: 800;
       text-transform: uppercase;
