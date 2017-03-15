@@ -47,7 +47,7 @@ $(function() {
   });
 
   /* Get stats */
-  var apiUrl = 'API_URL';
+  var apiUrl = 'http://particity.cascavel.pr.gov.br:8282';
 
   if(apiUrl.charAt(apiUrl.length - 1) !== '/') {
       apiUrl += '/';
