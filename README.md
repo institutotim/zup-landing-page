@@ -1,4 +1,22 @@
-# ZUP Landing Page
+## ZUP Landing Page
+
+    < ZUP Landing Page >
+    Copyright (C) <2014> <Instituto TIM>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
+--- 
 
 Este repositório contém o código da landing page do projeto ZUP para instituições que ofereçam acesso público a algum
 dos aplicativos da plataforma (Cidadão web ou Aplicativos Android e iOS). Um exemplo dessa página pode ser visualizado
